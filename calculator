@@ -1,0 +1,25 @@
+//Q2: WAP to accept two no from user and find out add, sub,mul,div,mod
+
+import java.util.*;
+class calci
+{
+	public static void main(String args[])
+	{
+		int num1, num2, add, sub, mul, div, mod;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter First Number");
+		num1=sc.nextInt();
+		System.out.println("Enter Second Number");
+		num2=sc.nextInt();
+		add=num1+num2;
+		sub=num1-num2;
+		mul=num1*num2;
+		div=num1/num2;
+		mod=num1%num2;
+		System.out.println("Addition of both number is: "+add);
+		System.out.println("Substraction of both number is: "+sub);
+		System.out.println("Product of both number is: "+mul);
+		System.out.println("Division of both number is: "+div);
+		System.out.println("Modulus of both number is: "+mod);
+	}
+}
