@@ -1,0 +1,19 @@
+//Q3: WAP to accept p,r,n from user and calculate SI
+
+import java.util.*;
+	class Simple Interest
+	{
+		public static void main(String args[])
+		{
+			int p,n,r,si;
+			Scanner sc= new Scanner(System.in);
+			System.out.println("Enter Principal Amount");
+			p=sc.nextInt();
+			System.out.println("Enter duration of loan");
+			n=sc.nextInt();
+			System.out.println("Enter Rate of Interest");
+			r=sc.nextInt();
+			si=(p*n*r)/100;
+			System.out.println("The Simple Interest is " +si);			
+		}
+	}
