@@ -1,0 +1,30 @@
+//Q1:  WAP to display your basic information
+
+import java.util.*;
+class information
+{
+	public static void main(String args[])
+	{
+		int age, roll;
+		String name, address, std, college;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter Name");
+		name=sc.nextLine();
+		System.out.println("Enter Address");
+		address=sc.nextLine();
+		System.out.println("Enter Roll Number");
+		roll=sc.nextInt();
+		System.out.println("Enter The Std");
+		std=sc.nextLine();
+		System.out.println("Enter Age");
+		age=sc.nextInt();
+		System.out.println("Enter College Name");
+		college=sc.nextLine();
+		System.out.println("Name:- "+name);
+		System.out.println("Age:- "+age);
+		System.out.println("Roll No:- "+roll);
+		System.out.println("Address:- "+address);
+		System.out.println("Standard:- "+std);
+		System.out.println("College Name:- "+college);
+	}
+}
