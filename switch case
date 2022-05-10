@@ -1,0 +1,46 @@
+//WAP to accept two no and choice from user for arithmetic operation and display the output
+
+import java.util.*;
+class calculator
+{
+	public static void main(String args[])
+	{
+		int num1,num2,res,op;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter First Number");
+		num1=sc.nextInt();
+		System.out.println("Enter Second Number");
+		num2=sc.nextInt();
+		System.out.println("Select operation to perform \n 1. Press 1 for addition \n 2. Press 2 for substraction \n 3. Press 3 for multiplication \n 4. Press 4 for division \n 5. Press 5 for modulus");
+		op=sc.nextInt();
+		switch(op)
+		{
+			case 1: 
+			res=num1+num2;
+			System.out.println("Addition of the given two number is: "+res);
+			break;
+			
+			case 2:
+			res=num1-num2;
+			System.out.println("Difference of the given two number is: "+res);
+			break;
+			
+			case 3:
+			res=num1*num2;
+			System.out.println("Product of the given two number is: "+res);
+			break;
+			
+			case 4:
+			res=num1/num2;
+			System.out.println("Division of the given two number is: "+res);
+			break;
+			
+			case 5:
+			res=num1%num2;
+			System.out.println("Modulus of the given two number is: "+res);
+			break;
+		
+		}
+		
+	}
+}
