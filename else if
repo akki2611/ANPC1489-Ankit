@@ -1,0 +1,37 @@
+//WAP to accept a character from user and check it is vowel or not
+
+import java.util.*;
+class vowel
+{
+	public static void main(String args[])
+	{
+		char inp;	
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter an alphabet");
+		inp=sc.next().charAt(0);
+		if(inp=='a')
+		{
+			System.out.println("Entered character is a vowel");
+		}
+		else if(inp=='e')
+		{
+			System.out.println("Entered character is a vowel");
+		}
+		else if(inp=='i')
+		{
+			System.out.println("Entered character is a vowel");
+		}
+		else if(inp=='o')
+		{
+			System.out.println("Entered character is a vowel");
+		}
+		else if(inp=='u')
+		{
+			System.out.println("Entered character is a vowel");
+		}
+		else
+		{
+			System.out.println("Entered character is a consonent");
+		}
+	}
+}
