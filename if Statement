@@ -1,0 +1,18 @@
+//WAP to accept a no from user if no is even than display the square
+
+import java.util.*;
+class square_of_even
+{
+	public static void main(String args[])
+	{
+		int num, square;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a number");
+		num=sc.nextInt();
+		if(num%2==0)
+		{
+			square=num*num;
+			System.out.println("Square of the given number is: "+square);
+		}
+	}
+}
