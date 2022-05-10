@@ -1,0 +1,22 @@
+//WAP to accept a no from user and check is even or odd
+
+import java.util.*;
+class odd_even
+{
+	public static void main(String args[])
+	{
+		int num;
+		Scanner sc= new Scanner(System.in);odd_even
+		System.out.println("Enter a number");
+		num=sc.n
+    extInt();
+		if(num%2==0)
+		{
+			System.out.println("The given number is even");
+		}
+		else
+		{
+			System.out.println("The given number is odd");
+		}
+	}
+}
