@@ -1,0 +1,14 @@
+//WAP to display the no from 876 to 23
+
+import java.util.*;
+class displaydescendingnumber
+{
+	public static void main(String args[])
+	{
+		int num;
+		for(num=876;num>=23;num--)
+		{
+			System.out.println(num+"\t");
+		}
+	}
+}
