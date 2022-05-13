@@ -1,0 +1,18 @@
+//WAP to accept a no from the user and display the multiplication table 1*1=1
+
+import java.util.*;
+class multiplicationtable
+{
+	public static void main(String args[])
+	{
+		int i,num,pro;
+		System.out.println("Enter the you want table of");
+		Scanner sc= new Scanner(System.in);
+		num=sc.nextInt();
+		for(i=1;i<=10;i++)
+		{
+			pro=num*i;
+			System.out.println(num+" * "+i+" = "+pro);
+		}
+	}
+}
