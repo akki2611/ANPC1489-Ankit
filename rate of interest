@@ -1,0 +1,37 @@
+//WAP to accept age and gender from user and display RI(m above 60:7%IR) (f above 60 : 7.5% IR)(Below  60 m, f 5%IR)
+
+import java.util.*;
+class rateofinterest
+{
+	public static void main(String args[])
+	{
+		int age;
+		char gender;
+		System.out.println("Enter Your age");
+		Scanner sc=new Scanner(System.in);
+		age=sc.nextInt();
+		System.out.println("Enter Your gender");
+		gender=sc.next().CharAt(0);
+		switch(gender)
+		{
+			case M:
+				if(age>60)
+				{
+					System.out.println("Rate of interest on your loan is: 7%");
+				}
+				else
+				{
+					System.out.println("Rate of interest on your loan is: 5%");
+				}
+			case F:
+				if(age>60)
+				{
+					System.out.println("Rate of interest on your loan is: 7.5%");
+				}
+				else
+				{
+					System.out.println("Rate of interest on your loan is: 5%");
+				}
+		}
+	}
+}
